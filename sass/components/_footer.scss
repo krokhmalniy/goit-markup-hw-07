@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $footer-bg-color;
+}
+
+.footer__container {
+    @extend %container;
+    display: flex;
+}
+
+.footer__text {
+    width: 231px;
+}
+

@@ -1,0 +1,55 @@
+.priorities {
+  padding-top: 94px;
+  padding-bottom: 0px;
+}
+
+.priorities__container {
+  @extend %container;
+}
+
+.priorities__title {
+  margin: 0;
+}
+
+.priorities__list {
+  @extend %list;
+  display: flex;
+}
+
+.priorities__item {
+  width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.priorities__box {
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: $prioritis-bg-color;
+  border-radius: 4px;
+}
+
+.priorities__icon {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
+
+.priorities__headline {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $secondari-text-color;
+}
+
+.priorities__paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,20 @@
+.logo {
+  @extend %link;
+  display: block;
+  margin-right: 93px;
+
+  @include text(rgba(0, 0, 0, 1));
+  font-family: $secondari-font-family;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo__span {
+  color: rgba(33, 150, 243, 1);
+}
+
+.logo--footer {
+  @include text($tertiary-text-color);
+  @include margin-bottom(20px);
+}
